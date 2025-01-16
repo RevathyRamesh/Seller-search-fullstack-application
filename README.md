@@ -23,6 +23,7 @@ npm start
   #### Create a MySQL database named seller_db:
   CREATE DATABASE seller_db;
 
+2. Configure the tables
   #### Create a Sellers table in seller_db:
   CREATE TABLE sellers (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -43,6 +44,9 @@ npm start
   ('Ramesh', 3.6, 'Decent overall, but communication needs improvement.'),
   ('Divya', 4.9, 'Amazing experience! Highly recommended for everyone.');
 
-
-
-
+  #### Create a Users table in seller_db:
+  CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL
+);
