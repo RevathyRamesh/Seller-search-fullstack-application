@@ -7,9 +7,14 @@
 - MySQL installed
 
 ### Frontend Setup
-Navigate to the frontend directory:
-
+1. Navigate to the frontend directory:
 cd frontend
+
+2. Install dependencies:
+npm install
+
+3. Start the frontend server:
+npm start
 
 
 ### Backend Setup
