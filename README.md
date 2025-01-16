@@ -6,6 +6,12 @@
 - Node.js installed
 - MySQL installed
 
+### Frontend Setup
+Navigate to the frontend directory:
+
+cd frontend
+
+
 ### Backend Setup
 1. Configure the database:
 
