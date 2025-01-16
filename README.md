@@ -61,3 +61,11 @@ The script will insert an admin user with the following credentials:
 Username: admin
 Password: admin123 (hashed for security)
 
+Ensure the setupUser.js
+const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'your-mysql-username',
+    password: 'your-mysql-password',
+    database: 'seller_db'
+});
+
