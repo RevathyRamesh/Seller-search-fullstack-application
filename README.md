@@ -20,8 +20,7 @@ npm start
 ### Backend Setup
 1. Configure the database:
 
-Create a MySQL database named seller_db.
-
+Create a MySQL database named seller_db:
 CREATE DATABASE seller_db;
 
 Create a Sellers table in seller_db.
