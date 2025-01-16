@@ -50,3 +50,14 @@ npm start
   username VARCHAR(255) NOT NULL UNIQUE,
   password VARCHAR(255) NOT NULL
 );
+
+3. Navigate to the backend directory:
+cd backend
+
+4. Run the script:
+node setupUser.js
+
+The script will insert an admin user with the following credentials:
+Username: admin
+Password: admin123 (hashed for security)
+
