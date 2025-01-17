@@ -72,3 +72,8 @@ const connection = mysql.createConnection({
     password: 'your-mysql-password',
     database: 'seller_db'
 });
+
+5. Run the script:
+node index.js
+
+If successful, you will see a message like:
