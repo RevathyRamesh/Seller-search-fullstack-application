@@ -79,3 +79,5 @@ const connection = mysql.createConnection({
 If successful, you will see a message like:
 Database Connected!
 Server running on port 4000
+
+Now, You can login and search, For Login you should use admin as username and admin123 as password
