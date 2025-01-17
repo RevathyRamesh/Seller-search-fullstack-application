@@ -77,3 +77,5 @@ const connection = mysql.createConnection({
 node index.js
 
 If successful, you will see a message like:
+Database Connected!
+Server running on port 4000
