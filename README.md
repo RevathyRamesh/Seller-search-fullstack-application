@@ -8,13 +8,13 @@
 
 ### Frontend Setup
 1. Navigate to the frontend directory:
-cd frontend
+**cd frontend**
 
 2. Install dependencies:
-npm install
+**npm install**
 
 3. Start the frontend server:
-npm start
+**npm start**
 
 
 ### Backend Setup
@@ -52,10 +52,10 @@ npm start
 );
 
 3. Navigate to the backend directory:
-cd backend
+**cd backend**
 
 4. Run the script:
-node setupUser.js
+**node setupUser.js**
 
 The script will insert an admin user with the following credentials:
 Username: admin
@@ -74,7 +74,7 @@ const connection = mysql.createConnection({
 });
 
 5. Run the script:
-node index.js
+**node index.js**
 
 If successful, you will see a message like:
 Database Connected!
