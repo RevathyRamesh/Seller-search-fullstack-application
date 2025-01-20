@@ -6,17 +6,6 @@
 - Node.js installed
 - MySQL installed
 
-### Frontend Setup
-1. Navigate to the frontend directory:
-**cd frontend**
-
-2. Install dependencies:
-**npm install**
-
-3. Start the frontend server:
-**npm start**
-
-
 ### Backend Setup
 1. Configure the database:
 
@@ -51,7 +40,7 @@
   password VARCHAR(255) NOT NULL
 );
 
-3. Navigate to the backend directory:
+3. Navigate to the backend directory: Open new terminal, run
 **cd backend**
 
 4. Run the script:
@@ -78,6 +67,18 @@ const connection = mysql.createConnection({
 
 If successful, you will see a message like:
 Database Connected!
-Server running on port 4000
+Server running on port 4000.
+
+Don't close this terminal.
+
+### Frontend Setup
+1. Navigate to the frontend directory: Open another new terminal, run
+**cd frontend**
+
+2. Install dependencies:
+**npm install**
+
+3. Start the frontend server:
+**npm start**
 
 Now, You can login and search, For Login you should use admin as username and admin123 as password
