@@ -40,7 +40,7 @@
   password VARCHAR(255) NOT NULL
 );
 
-3. Navigate to the backend directory: Open new terminal, run
+3. Navigate to the backend directory: Open new terminal, go to
 **cd backend**
 
 4. Run the script:
@@ -72,7 +72,7 @@ Server running on port 4000.
 Don't close this terminal.
 
 ### Frontend Setup
-1. Navigate to the frontend directory: Open another new terminal, run
+1. Navigate to the frontend directory: Open another new terminal, go to
 **cd frontend**
 
 2. Install dependencies:
