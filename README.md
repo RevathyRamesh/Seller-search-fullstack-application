@@ -81,4 +81,4 @@ Don't close this terminal.
 3. Start the frontend server:
 **npm start**
 
-Now, You can login and search, For Login you should use admin as username and admin123 as password
+Now, You can login and search, For Login you should use **admin** as username and **admin123** as password
